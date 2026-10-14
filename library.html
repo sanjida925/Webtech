@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Membership</title>
+    <link rel="icon" href="book.png">
+</head>
+
+<body>
+
+    <h1>Library Member Profile</h1>
+    <p>Welcome to our <b>Library</b> Membership Page.</p>
+    <p><i>Read books, gain knowledge, and grow every day.</i></p>
+
+    <h2>Member Information</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+
+        <tr>
+            <td>24-567-1</td>
+            <td>taylor</td>
+            <td>taylor@gmail.com</td>
+            <td><img src="https://theboot.com/taylor-swift-love-life/"width="80" height="80"></td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>olivia</td>
+            <td>olivia@gmail.com</td>
+            <td><img src=" https://vogue.ph/magazine/olivia-rodrigo-september-october-2026-cover/"width="80" height="80"></td>
+        </tr>
+    </table>
+
+    <p>Visit our <a href="https://www.rokomari.com/">Book Collection</a></p>
+
+    <h2>Membership Registration Form</h2>
+
+    <form action="" method="get">
+ 
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" required>
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Membership Type:</label>
+        <select name="membership" required>
+            <option value="">Select Membership</option>
+            <option value="Regular">Regular</option>
+            <option value="Premium">Premium</option>
+            <option value="Student">Student</option>
+        </select>
+        <br><br>
+
+        <label>Upload Profile Picture:</label>
+        <input type="file" name="profile">
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="checkbox" name="terms" value="accepted" required>
+        I agree to the terms and conditions.
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
